@@ -1,6 +1,6 @@
 ## Algorithms
 
-# dynamicConnectivity
+# Dynamic Connectivity
 
 - QuickFindUF
 - QuickUnionUF
