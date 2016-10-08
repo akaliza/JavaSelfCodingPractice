@@ -1,4 +1,4 @@
-package designpatterns;
+package designPatterns;
 
 /**
  * Created by florakalisa on 10/4/16.
