@@ -1,11 +1,13 @@
-# Algorithms
-
 # Challenge
 
-# Dynamic Connectivity
+## Left Rotation
 
-## QuickFindUF
-## QuickUnionUF
+# Algorithm
+
+##Dynamic Connectivity
+
+### QuickFindUF
+### QuickUnionUF
 
 
 # Data structures
