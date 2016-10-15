@@ -1,19 +1,19 @@
-## Algorithms
+# Algorithms
 
-## Challenge
+# Challenge
 
 # Dynamic Connectivity
 
-- QuickFindUF
-- QuickUnionUF
+## QuickFindUF
+## QuickUnionUF
 
 
-## Data structures
+# Data structures
 
-# Stack
-# Queue
+## Stack
+## Queue
 
 ## Design patterns
 
-# Builder
+## Builder
 
