@@ -1,8 +1,8 @@
-# Challenge
+# Challenges
 
 ## Left Rotation
 
-# Algorithm
+# Algorithms
 
 ##Dynamic Connectivity
 
