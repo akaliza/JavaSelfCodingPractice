@@ -1,5 +1,7 @@
 ## Algorithms
 
+## Challenge
+
 # Dynamic Connectivity
 
 - QuickFindUF
@@ -8,6 +10,10 @@
 
 ## Data structures
 
+# Stack
+# Queue
 
 ## Design patterns
+
+# Builder
 
