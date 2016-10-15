@@ -4,6 +4,7 @@ package dataStructures;
  * Created by florakalisa on 10/15/16.
  * LIFO : Last In Fist Out
  * With linkedList, no problem with the size
+ * Every operation takes constant time
  */
 public class StackWithLinkedList {
 
