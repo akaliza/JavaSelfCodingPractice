@@ -15,7 +15,7 @@
 ## Stack
 ## Queue
 
-## Design patterns
+# Design patterns
 
 ## Builder
 
