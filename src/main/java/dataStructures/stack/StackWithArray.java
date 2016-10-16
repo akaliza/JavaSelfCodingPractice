@@ -1,10 +1,11 @@
-package dataStructures;
+package dataStructures.stack;
 
 /**
  * Created by florakalisa on 10/15/16.
  * LIFO : Last In First Out
  * With arrays, we need to think of resizing the arrays
  * Consideration:resizing the array ,null items, loitering(reference to an object when no longer needed)
+ * Java does not allow generic array creation => (T[]) new Object[capacity]
  */
 public class StackWithArray {
 

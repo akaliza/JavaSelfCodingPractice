@@ -1,4 +1,4 @@
-package dataStructures;
+package dataStructures.stack;
 
 /**
  * Created by florakalisa on 10/15/16.
@@ -19,7 +19,7 @@ public class StackWithLinkedList {
 class Stack<T>{
 
 
-    static class  Node<T>{
+    private static class  Node<T>{
 
 
         private T item;
