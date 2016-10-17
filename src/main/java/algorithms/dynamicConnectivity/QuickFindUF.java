@@ -5,7 +5,7 @@ package algorithms.dynamicConnectivity;
  */
 public class QuickFindUF implements UnionFind{
 
-    //Quick find is too slow for a huge problem
+    //Quick find is too slow for a huge problem, it takes quadratique(N) time
 
     private int [] id;
 
