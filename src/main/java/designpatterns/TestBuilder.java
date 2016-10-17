@@ -4,7 +4,10 @@ package designPatterns;
  * Created by florakalisa on 10/4/16.
  */
 public class TestBuilder {
-    Person person = new Person.Builder("firstName", "lastName").buildMarried(true).build();
+
+    public static void main(String[] args) {
+        Person person = new Person.Builder("firstName", "lastName").buildMarried(true).build();
+    }
 }
 
 class Person {

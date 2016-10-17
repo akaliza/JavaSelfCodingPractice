@@ -6,7 +6,6 @@ public class TestHashMap {
     }
 }
 
-
 class HashMap {
 
     private final static int CAPACITY = 10;
@@ -37,10 +36,50 @@ class HashMap {
     }
 
     public void put(int key, int value) {
+        int hash = key % CAPACITY;
+
+        LinkedHashEntry linkedHashEntry = new LinkedHashEntry(key, value);
+
+        LinkedHashEntry item = table[hash];
+
+        if(item==null){
+            table[hash] = linkedHashEntry;
+        }else{
+            while(item.getNext() != null &&item.getKey() != key ){
+                item = item.getNext();
+            }
+            if(item.getKey() == key){
+                item.setValue(value);
+            }else{
+                item.setNext(linkedHashEntry);
+
+            }
+        }
 
     }
 
     public void remove(int key) {
+        int hash = key % CAPACITY;
+        LinkedHashEntry item = table[hash];
+
+        if(item!=null){
+
+            LinkedHashEntry prev = null;
+            while(item.getKey()!=key){
+                prev= item;
+                item = item.getNext();
+            }
+
+            if(item.getKey()==key){
+                if(prev==null){
+                    table[hash] = item.getNext();
+                }else{
+                    prev.setNext(item.getNext());
+                }
+            }
+        }
+
+
 
     }
 
