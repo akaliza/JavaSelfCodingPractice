@@ -3,10 +3,10 @@ package algorithms.dynamicConnectivity;
 /**
  * Created by florakalisa on 10/4/16.
  * QuickFind is a QuickUnion(UF) algorithm
+ * Time complexity :  quadratique time (N*N)
+ * Space complexity :
  */
 public class QuickFindUF{
-
-    //Quick find is too slow for a huge problem, it takes quadratique(N) time
 
     private int [] id;
 
@@ -14,7 +14,7 @@ public class QuickFindUF{
 
         id = new int[N];
         for(int i =0; i < id.length; i ++){
-            id[i] = i; //N arrays accesses
+            id[i] = i; //N arrays accesses, at the beginning none of the nodes are connected
         }
     }
 
