@@ -2,8 +2,9 @@ package algorithms.dynamicConnectivity;
 
 /**
  * Created by florakalisa on 10/4/16.
+ * QuickFind is a QuickUnion(UF) algorithm
  */
-public class QuickFindUF implements UnionFind{
+public class QuickFindUF{
 
     //Quick find is too slow for a huge problem, it takes quadratique(N) time
 

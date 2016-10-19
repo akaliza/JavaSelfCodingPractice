@@ -2,9 +2,10 @@ package algorithms.dynamicConnectivity;
 
 /**
  * Created by florakalisa on 10/4/16.
+ * QuickUnion is a QuickUnion(UF) algorithm
  * the tree can be tall, for skinny tree
  */
-public class QuickUnionUF implements UnionFind{
+public class QuickUnionUF{
 
     private int [] id;
 
@@ -36,3 +37,5 @@ public class QuickUnionUF implements UnionFind{
 
 
 }
+
+
