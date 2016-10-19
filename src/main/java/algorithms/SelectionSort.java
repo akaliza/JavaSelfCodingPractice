@@ -6,6 +6,8 @@ import java.util.Arrays;
 
 /**
  * Created by florakalisa on 10/19/16.
+ * Time complexity :
+ * Space complexity : Quadratique = N*N
  */
 public class SelectionSort {
 
