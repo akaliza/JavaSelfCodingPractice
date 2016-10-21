@@ -15,7 +15,7 @@ public class LeftRotation {
         int[] myArray = {1, 2, 3, 4, 5};
         System.out.println(Arrays.toString(myArray));
         int rotationNumber = 4;
-        while (rotationNumber != 0) {
+        while (rotationNumber > 0) {
             for (int i = 0; i < myArray.length - 1; i++) {
                 int tmp = myArray[i];
                 myArray[i] = myArray[i + 1];
