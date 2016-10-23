@@ -4,7 +4,7 @@ package algorithms.dynamicConnectivity;
  * Created by florakalisa on 10/7/16.
  * deeth of any node x is at most log(N)
  */
-public class WaitedQuickUnion implements UnionFind {
+public class WaitedQuickUnion {
 
     private int [] id;
     private int [] sz;
